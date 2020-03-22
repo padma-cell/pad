@@ -25,4 +25,15 @@ public class AddTwoNumbers2 {
         sum = num1 + num2;
         System.out.println("Sum of these numbers: "+sum);
     }
+----------------------------------
+class DecimalBinaryExample{
+     
+    public static void main(String a[]){
+    	System.out.println("Binary representation of 124: ");
+    	System.out.println(Integer.toBinaryString(124));
+        System.out.println("\nBinary representation of 45: ");
+        System.out.println(Integer.toBinaryString(45));
+        System.out.println("\nBinary representation of 999: ");
+        System.out.println(Integer.toBinaryString(999));
+    }
 }
